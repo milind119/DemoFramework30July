@@ -11,7 +11,7 @@ public class ExcelDataProvider {
 XSSFWorkbook wb;
 XSSFSheet sheet;
 
-public void ExccelDataProvider(){
+public ExcelDataProvider(){
 	
 try   {
 	    File src = new File("./ApplicationTestData/TestDataMaven.xlsx");

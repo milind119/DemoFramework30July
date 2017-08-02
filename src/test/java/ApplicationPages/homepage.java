@@ -26,7 +26,7 @@ public homepage(WebDriver ldriver){
 	@FindBy(xpath="//span [text()= 'Wishlist']")
 	WebElement  Wishlistlink;
 	
-	@FindBy(xpath="//span [text()= 'Log In']")
+	@FindBy(xpath="//span[text()= ' Log In']")
 	WebElement  loginLink;
 	
 	public void clickonLoginlink(){
